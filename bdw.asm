@@ -52,7 +52,7 @@ segment code
 
 
 ;--------------------------------------------------------------------------------------------------------
-; 	Codigo da tela inicial de calibraca
+; 	Codigo da tela inicial de calibracao
 ;--------------------------------------------------------------------------------------------------------
 
 		mov		byte[cor],branco_intenso
@@ -2424,9 +2424,9 @@ segment data
     modo_anterior								db	   	0
 
 ; valores a serem ecritos no programa
-		DYE         	  	db 	' Dyego'												
-		BBS       			db 	' Brenno'
-	    WALLA               db  ' Wallace'
+		DYE         	  	db 	' Dyego Cavalieri Pansieri'												
+		BBS       			db 	' Brenno Barros Soares'
+	    WALLA               db  ' Wallace Kruger'
 
 		CABECALHO  			db 	' Projeto Final de Sistemas Embarcados 2019-1 '   ;45 caracteres
 		SAIR						db	' Para sair do programa pressionar Q '						;36 caracteres
