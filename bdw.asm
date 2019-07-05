@@ -1098,7 +1098,7 @@ escreveCabecalho:
 
   ; escreve nomes
 
-		mov 	cx,7			;numero de caracteres
+		mov 	cx,21			;numero de caracteres
 		mov 	bx,0
 		mov 	dh,26			;linha 0-29
 		mov 	dl,1			;coluna 0-79
@@ -1111,7 +1111,7 @@ escreverBBS:
 		inc		dl			;avanca a coluna
 		loop  escreverBBS
 
-		mov 	cx,6			;numero de caracteres
+		mov 	cx,25			;numero de caracteres
 		mov 	bx,0
 		mov 	dh,27			;linha 0-29
 		mov 	dl,1			;coluna 0-79
@@ -1124,7 +1124,7 @@ escreverDYE:
 		inc		dl			;avanca a coluna
 		loop 	escreverDYE
 
-		mov 	cx,8			;numero de caracteres
+		mov 	cx,15			;numero de caracteres
 		mov 	bx,0
 		mov 	dh,28			;linha 0-29
 		mov 	dl,1			;coluna 0-79
@@ -1970,7 +1970,7 @@ escreverChamada2:
     mov   cx,8			;numero de caracteres
     mov   bx,0
     mov   dh,27			;linha 0-29
-    mov   dl,51			;coluna 0-79
+    mov   dl,15			;coluna 0-79
 
 escreverInternas:
     call 	cursor
@@ -2425,8 +2425,8 @@ segment data
 
 ; valores a serem ecritos no programa
 		DYE         	  	db 	' Dyego Cavalieri Pansieri'												
-		BBS       			db 	' Brenno Barros Soares'
-	    WALLA               db  ' Wallace Kruger'
+		BBS       			  db 	' Brenno Barros Soares'
+	  WALLA             db  ' Wallace Kruger'
 
 		CABECALHO  			db 	' Projeto Final de Sistemas Embarcados 2019-1 '   ;45 caracteres
 		SAIR						db	' Para sair do programa pressionar Q '						;36 caracteres
