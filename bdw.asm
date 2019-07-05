@@ -3,7 +3,7 @@
 ;2019/1
 ;Grupo:
 ;Brenno Barros Soares
-;Dyego Cavalieri Pansieri
+;Dyego Cavalieri Pansier
 ;Wallace Kruger
 
 
